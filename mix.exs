@@ -75,7 +75,8 @@ defmodule Cafex.Mixfile do
     [files: ~w(lib config/config.exs integration_test test LICENSE mix.exs mix.lock README.md),
      licenses: ["Apache 2.0"],
      maintainers: ["Belltoy Zhao"],
-     links: %{"GitHub" => "https://github.com/upyun/cafex"}]
+     links: %{"GitHub" => "https://github.com/upyun/cafex",
+     name: "misha_cafex"}]
   end
 
   defp description do
