@@ -45,7 +45,7 @@ defmodule Cafex.Mixfile do
   defp deps do
     [{:earmark, "~> 1.0.1", only: :dev},
      {:ex_doc,  "~> 0.13.0", only: :dev},
-     {:consul, github: "zolazhou/consul-ex"},
+     {:consul, "~> 1.0.3"},
      {:erlzk,   "~> 0.6.3"},
      {:snappy, "~> 1.1", only: [:dev, :test]}]
   end
