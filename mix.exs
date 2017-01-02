@@ -17,7 +17,7 @@ defmodule Cafex.Mixfile do
        "test.default": &test_default/1],
      preferred_cli_env: ["test.all": :test],
 
-     name: "misha_Cafex",
+     name: "misha_cafex",
      source_url: "https://github.com/upyun/cafex",
      homepage_url: "http://cafex.github.com/",
      docs: [extras: ["README.md"]],
