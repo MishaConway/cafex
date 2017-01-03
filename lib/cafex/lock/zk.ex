@@ -3,7 +3,7 @@ defmodule Cafex.Lock.ZK do
 
   require Logger
 
-  @chroot '/cafex'
+  @chroot "/cafex"
   @timeout 5000
 
   defmodule State do
